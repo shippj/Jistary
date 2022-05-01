@@ -1,0 +1,37 @@
+# EACH LINE MUST HAVE 2 OR 3 TABS
+# [key] tab [comment] tab [command]
+# [key] tab [comment] tab [command] tab [parameters]
+#
+-	WEBSITES	
+A	Search Amazon	https://www.amazon.com/s?k={query}
+A	Search Amazon Orders	https://smile.amazon.com/gp/your-account/order-history/ref=ppx_yo_dt_b_search?opt=ab&search={query}
+A	Search ARIN	https://search.arin.net/rdap/?query={query}
+C	Search Contacts	https://contacts.google.com/search/{query}
+D	Lookup Dell service tag	https://www.dell.com/support/home/us/en/04/product-support/servicetag/{query}/drivers
+E	Search Ebay	https://www.ebay.com/sch/?_nkw={query}
+E	Search Ebay Orders	https://www.ebay.com/mye/myebay/purchase?page=1&q={query}&pg=purchase&mp=purchase-search-module
+F	Search Facebook	https://www.facebook.com/search/top?q={query}
+G	Search Google	https://www.google.com/search?q={query}
+I	Search Google images	https://www.google.com/search?tbm=isch&q={query}
+M	Search Google maps	https://maps.google.com/?q={query}
+W	Search Wikipedia	https://en.wikipedia.org/wiki/{query}
+Y	Search Youtube	https://www.youtube.com/results?q={query}
+-		
+-	FOLDERS	
+PD	Desktop (public)	c:\users\public\desktop		
+-		
+-	FILE NAME SEARCH	
+D	Search Documents	fns	c:\users\john\documents
+P	Search Pictures	fns	C:\Users\john\pictures
+-		
+-	FILE CONTENTS SEARCH	
+D	Search contents of Documents	fcs	C:\Users\john\documents
+-		
+-	PROGRAMS	
+C	run Calculator	calc
+NO	run Notepad	notepad
+W	run Wordpad	wordpad
+P	Ping	ping	{query}
+P	Ping until stopped	ping	{query} -t
+P	Ping BIG until stopped	ping	{query} -t -l 64000
+P	Printers	control	printers
