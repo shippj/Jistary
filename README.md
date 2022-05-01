@@ -23,3 +23,11 @@ The 4th column is optional.  It’s for passing command line parameters to progr
 FNS stands for File Name Search, it’s a special built-in command that makes Jistary search file names in a folder.  Jistary will also search ALL FNS even when the user doesn’t type a “key”.
 
 FCS stands for File Contents Search, it’s another built-in command that makes Jistary search file contents, but unlike FNS, it doesn’t get used when the user doesn’t type a “key”
+
+# SCREENSHOTS
+![Screenshot1](/Screenshots/start.png)
+![Screenshot1](/Screenshots/a.png)
+![Screenshot1](/Screenshots/d.png)
+![Screenshot1](/Screenshots/e.png)
+![Screenshot1](/Screenshots/p.png)
+![Screenshot1](/Screenshots/fns.png)
