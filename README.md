@@ -12,9 +12,11 @@ A Windows Search Replacement - Inspired by Listary
 ## COMMANDS.TXT
 Jistary reads this file each time it starts.
 
-The 1st column is the “key” the user will type to activate the command in the 3rd column.  It can be 1 or more characters.  There can be duplicates.
+The 1st column is the “key” the user will type to activate the command in the 3rd column.  The key can be 1 or more characters.  There can be duplicates.
 
 The 2nd column is what gets displayed to the user when they type the key.
+
+The 3rd column is the website or command to be executed.  {query} will get replaced with whatever the user types after they key.
 
 The 4th column is optional.  It’s for passing command line parameters to programs, such as ping.
 
