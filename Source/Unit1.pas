@@ -203,7 +203,6 @@ begin
 
   if FindFirst(Folder+'*',faAnyFile,sr) = 0 then begin
     repeat
-      application.ProcessMessages;
       if (sr.Name <> '.') and (sr.Name <> '..') then begin {$WARNINGS OFF} //faHidden is specific to platform
         if ((sr.Attr and faDirectory) <> 0) then
             fns(Folder+sr.Name+'\');
@@ -222,7 +221,6 @@ begin
 
   if FindFirst(Folder+'*',faAnyFile,sr) = 0 then begin
     repeat
-      application.ProcessMessages;
       if (sr.Name <> '.') and (sr.Name <> '..') then begin {$WARNINGS OFF} //faHidden is specific to platform
           if ((sr.Attr and faDirectory) <> 0) then
               fcs(Folder+sr.Name+'\');
