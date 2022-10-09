@@ -14,10 +14,11 @@ F	Search Facebook	https://www.facebook.com/search/top?q={query}
 G	Search Google	https://www.google.com/search?q={query}
 I	Search Google images	https://www.google.com/search?tbm=isch&q={query}
 M	Search Google maps	https://maps.google.com/?q={query}
+M	Mac Lookup	https://maclookup.app/search/result?mac={query}
 W	Search Wikipedia	https://en.wikipedia.org/wiki/{query}
 Y	Search Youtube	https://www.youtube.com/results?q={query}
 -		
--	FOLDERS	
+-	OPEN A FOLDER 
 PD	Desktop (public)	c:\users\public\desktop		
 -		
 -	FILE NAME SEARCH	
@@ -27,7 +28,7 @@ P	Search Pictures	fns	C:\Users\john\pictures
 -	FILE CONTENTS SEARCH	
 D	Search contents of Documents	fcs	C:\Users\john\documents
 -		
--	PROGRAMS	
+-	RUN A PROGRAM	
 C	run Calculator	calc
 NO	run Notepad	notepad
 W	run Wordpad	wordpad
