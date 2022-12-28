@@ -11,11 +11,14 @@ D	Lookup Dell service tag	https://www.dell.com/support/home/us/en/04/product-sup
 E	Search Ebay	https://www.ebay.com/sch/?_nkw={query}
 E	Search Ebay Orders	https://www.ebay.com/mye/myebay/purchase?page=1&q={query}&pg=purchase&mp=purchase-search-module
 F	Search Facebook	https://www.facebook.com/search/top?q={query}
+F	Fedex Track	https://www.fedex.com/fedextrack/?action=track&trackingnumber={query}
 G	Search Google	https://www.google.com/search?q={query}
 I	Search Google images	https://www.google.com/search?tbm=isch&q={query}
 M	Search Google maps	https://maps.google.com/?q={query}
 M	Mac Lookup	https://maclookup.app/search/result?mac={query}
 W	Search Wikipedia	https://en.wikipedia.org/wiki/{query}
+U	UPS Track	https://www.ups.com/track?loc=en_US&requester=QUIC&tracknum={query}/trackdetails
+U	USPS Track	https://tools.usps.com/go/TrackConfirmAction?qtc_tLabels1={query}
 Y	Search Youtube	https://www.youtube.com/results?q={query}
 -		
 -	OPEN A FOLDER 
