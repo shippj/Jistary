@@ -13,6 +13,8 @@ E	Search Ebay Orders	https://www.ebay.com/mye/myebay/purchase?page=1&q={query}&p
 F	Search Facebook	https://www.facebook.com/search/top?q={query}
 F	Fedex Track	https://www.fedex.com/fedextrack/?action=track&trackingnumber={query}
 G	Search Google	https://www.google.com/search?q={query}
+H	Open HTTP	http://{query}
+H	Open HTTPS	https://{query}
 I	Search Google images	https://www.google.com/search?tbm=isch&q={query}
 M	Search Google maps	https://maps.google.com/?q={query}
 M	Mac Lookup	https://maclookup.app/search/result?mac={query}
@@ -39,3 +41,4 @@ P	Ping	ping	{query}
 P	Ping until stopped	ping	{query} -t
 P	Ping BIG until stopped	ping	{query} -t -l 64000
 P	Printers	control	printers
+EC	Edit the command list	notepad	commands.txt
