@@ -130,6 +130,7 @@ begin
     MyFileMask.Destroy;
     end
   else if cmd <> '' then begin
+    self.Hide;
     cmd := stringreplace(cmd,'{query}',data,[]);
     parameters := stringreplace(parameters,'{query}',data,[]);
     ShellExecute(handle,'Open',PChar(cmd),PChar(parameters),nil,SW_MAXIMIZE);
